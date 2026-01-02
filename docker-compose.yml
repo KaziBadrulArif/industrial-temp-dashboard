@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    container_name: tempops_db
+    environment:
+      POSTGRES_USER: tempops
+      POSTGRES_PASSWORD: tempops
+      POSTGRES_DB: tempops
+    ports:
+      - "5433:5432"
+    volumes:
+      - tempops_pg:/var/lib/postgresql/data
+volumes:
+  tempops_pg:

@@ -1,0 +1,5 @@
+site,area,unit,equipment,attribute_name,uom,threshold_high,duration_seconds
+CalgaryPlant,Utilities,BoilerRoom,Pump-101,bearing_temp,C,85,300
+CalgaryPlant,Utilities,BoilerRoom,Pump-101,motor_temp,C,90,300
+CalgaryPlant,Utilities,BoilerRoom,Fan-201,bearing_temp,C,80,240
+CalgaryPlant,Process,Line1,Extruder-01,barrel_temp,C,210,180
